@@ -7,9 +7,9 @@ body { margin: 0; min-width: 320px; background: radial-gradient(circle at 10% 10
 button, input { font: inherit; }
 button { cursor: pointer; }
 .wrap { width: min(1140px, calc(100% - 40px)); margin-inline: auto; }
-.nav { height: 82px; display: flex; align-items: center; justify-content: space-between; }
-.brand { color: #14231d; text-decoration: none; font-weight: 800; font-size: 21px; display: flex; align-items: center; gap: 10px; letter-spacing: -.5px; }
-.logo { width: 42px; height: 42px; display: block; object-fit: cover; border-radius: 12px; }
+.nav { height: 96px; display: flex; align-items: center; justify-content: space-between; }
+.brand { color: #14231d; text-decoration: none; font-weight: 800; font-size: 23px; display: flex; align-items: center; gap: 13px; letter-spacing: -.5px; }
+.logo { width: 60px; height: 60px; display: block; object-fit: contain; flex: 0 0 60px; }
 .nav-note { display: flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; color: #557068; }
 .hero { padding: 76px 0 84px; text-align: center; }
 .eyebrow { display: inline-flex; align-items: center; gap: 7px; padding: 8px 13px; border: 1px solid #c8d8cb; color: #3e6c50; border-radius: 99px; text-transform: uppercase; font: 500 11px DM Mono, monospace; letter-spacing: 1.2px; background: rgba(255,255,255,.65); }
@@ -76,6 +76,9 @@ footer small { text-align: right; }
   .preview { padding: 25px 22px; }
 }
 @media (max-width: 430px) {
+  .nav { height: 84px; }
+  .brand { font-size: 21px; gap: 10px; }
+  .logo { width: 52px; height: 52px; flex-basis: 52px; }
   .nav-note { display: none; }
   .hero { padding-bottom: 58px; }
   .color-grid { grid-template-columns: 1fr; }
