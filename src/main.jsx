@@ -65,7 +65,7 @@ function App() {
     <main>
       <header className="nav wrap">
         <a className="brand" href="#top" aria-label="EasyQR home">
-          <span className="logo"><QrCode size={22} strokeWidth={2.5} /></span>
+          <img className="logo" src="/easyqr-logo-transparent.png" alt="" aria-hidden="true" />
           EasyQR
         </a>
         <span className="nav-note"><ShieldCheck size={16} /> Private by design</span>

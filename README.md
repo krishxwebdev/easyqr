@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/easyqr-logo-transparent.png" alt="EasyQR logo" width="140" />
+</p>
+
 # EasyQR
 
 A fast, private QR code generator that turns links into customizable QR codes
